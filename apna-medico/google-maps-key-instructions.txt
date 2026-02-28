@@ -1,0 +1,12 @@
+# Add this line to your .env.local file (copy-paste):
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyAAJGrEaKb_a3putkmNrknnrwqFjI_-cGg
+
+# Your .env.local should already have these keys:
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c291Z2h0LWphdmVsaW4tOTMuY2xlcmsuYWNjb3VudHMuZGV2JA
+# CLERK_SECRET_KEY=sk_test_Zzwfovm4Orq1rKeG69HvDeoOCKgGsGzSLYmExtauTS
+# DATABASE_URL=postgresql://...
+# GEO_MAPS_API_KEY=9a59f9a15967c74c37aa3586c8333224
+# ... and all other keys
+
+# After adding the Google Maps key, restart your dev server:
+# npm run dev
